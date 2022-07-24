@@ -1,0 +1,94 @@
+<div class="news__main-block main-block">
+  <div class="main-block__container">
+    <div class="main-image-block__item block">
+      <div class="main-image__text">
+        <span>{{ "people.title" | translate }}</span>
+      </div>
+    </div>
+
+    <div class="images-block">
+      <div class="images-block__row">
+        <div
+          class="images-block__item block cursor-pointer"
+          (click)="redirectToPage('/block-two-article')"
+        >
+          <div class="images-block-item__container">
+            <div class="images-block-item-image">
+              <div class="images-block-item-image__item photo-2"></div>
+            </div>
+            <div class="images-block-item-image__text">
+              <span>{{ "mainPage.blockTwo.title" | translate }}</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="images-block__item block cursor-pointer"
+          (click)="redirectToPage('/vyacheslav-pairs')"
+        >
+          <div class="images-block-item__container">
+            <div class="images-block-item-image">
+              <div class="images-block-item-image__item photo-1"></div>
+            </div>
+            <div class="images-block-item-image__text">
+              <span>{{ "mainPage.shortInfoThree" | translate }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="images-block__item block">
+          <div
+            class="images-block-vertical-item__container cursor-pointer"
+            (click)="redirectToPage('/how-to-create-media-content')"
+          >
+            <div class="images-block-vertica-item-image__text">
+              <div class="title">
+                <span>{{ "news.thirdBlock.title" | translate }}</span>
+              </div>
+              <div class="info">
+                <span>{{ "news.thirdBlock.text" | translate }}</span>
+              </div>
+            </div>
+
+            <div class="images-block-vertical-item-image">
+              <div class="images-block-item-image__item photo-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="images-block__row-1">
+        <div class="images-block__item block cursor-pointer video-block">
+          <div class="video-block__container">
+            <div class="video-block__body">
+              <iframe src="https://www.youtube.com/embed/bPnkP8cxHek"> </iframe>
+            </div>
+          </div>
+        </div>
+        <div
+          class="images-block__item block cursor-pointer"
+          (click)="redirectToPage('/drunks')"
+        >
+          <div
+            class="images-block-vertical-item__container cursor-pointer"
+            (click)="redirectToPage('/how-to-create-media-content')"
+          >
+            <div class="images-block-vertica-item-image__text">
+              <div class="title">
+                <span>{{ "drunks.title" | translate }}</span>
+              </div>
+              <div class="info">
+                <span>{{ "drunks.info.text1" | translate }}</span>
+              </div>
+              <div class="info">
+                <span>{{ "drunks.info.text2" | translate }}</span>
+              </div>
+            </div>
+
+            <div class="images-block-vertical-item-image">
+              <div class="images-block-item-image__item photo-5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

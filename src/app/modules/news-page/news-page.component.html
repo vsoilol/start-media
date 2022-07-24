@@ -1,0 +1,120 @@
+<div class="news__main-block main-block">
+  <div class="main-block__container">
+    <div class="main-image-block__item block">
+      <div class="main-image__text">
+        <span>{{ "news.title" | translate }}</span>
+      </div>
+    </div>
+
+    <div class="images-block">
+      <div class="images-block__row">
+        <div
+          class="images-block__item block cursor-pointer"
+          (click)="redirectToPage('/social-advert')"
+        >
+          <div class="images-block-item__container">
+            <div class="images-block-item-image">
+              <div class="images-block-item-image__item photo-1"></div>
+            </div>
+            <div class="images-block-item-image__text">
+              <span>{{ "news.firstBlock" | translate }}</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="images-block__item block cursor-pointer"
+          (click)="redirectToPage('/quick-snacks')"
+        >
+          <div class="images-block-item__container">
+            <div class="images-block-item-image">
+              <div class="images-block-item-image__item photo-2"></div>
+            </div>
+            <div class="images-block-item-image__text">
+              <span>{{ "news.secondBlock" | translate }}</span>
+            </div>
+          </div>
+        </div>
+        <div class="images-block__item block">
+          <div
+            class="images-block-vertical-item__container cursor-pointer"
+            (click)="redirectToPage('/how-to-create-media-content')"
+          >
+            <div class="images-block-vertica-item-image__text">
+              <div class="title">
+                <span>{{ "news.thirdBlock.title" | translate }}</span>
+              </div>
+              <div class="info">
+                <span>{{ "news.thirdBlock.text" | translate }}</span>
+              </div>
+            </div>
+
+            <div class="images-block-vertical-item-image">
+              <div class="images-block-item-image__item photo-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="images-block__row">
+        <div
+          class="images-block__item block cursor-pointer"
+          (click)="redirectToPage('/car-industry')"
+        >
+          <div class="images-block-item__container">
+            <div class="images-block-item-image">
+              <div class="images-block-item-image__item photo-6"></div>
+            </div>
+            <div class="images-block-item-image__text">
+              <span>{{ "news.fourthBlock" | translate }}</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="images-block__item block cursor-pointer"
+          (click)="redirectToPage('/princess-children')"
+        >
+          <div class="images-block-item__container">
+            <div class="images-block-item-image">
+              <div class="images-block-item-image__item photo-5"></div>
+            </div>
+            <div class="images-block-item-image__text">
+              <span>{{ "news.fifthBlock" | translate }}</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="images-block__item block cursor-pointer"
+          (click)="redirectToPage('/gingerbreads-article')"
+        >
+          <div class="images-block-vertical-item__container">
+            <div class="images-block-vertica-item-image__text m-t-40">
+              <div class="title">
+                <span>{{ "gingerbreadsArticle.title" | translate }}</span>
+              </div>
+            </div>
+
+            <div class="images-block-vertical-item-image">
+              <div class="images-block-item-image__item photo-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="full-image-block">
+      <div
+        class="full-image-block__item block cursor-pointer"
+        (click)="redirectToPage('/tactile-signs')"
+      >
+        <div class="full-image-block-item__container">
+          <div class="full-image-block-item-image__text">
+            <span>{{ "news.seventhBlock" | translate }}</span>
+          </div>
+          <div class="full-image-block-item-image">
+            <div class="full-image-block-item-image__item photo-7"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

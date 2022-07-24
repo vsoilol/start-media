@@ -1,0 +1,183 @@
+<div class="page__main-block main-block">
+  <div class="main-block__container">
+    <div class="main-block__body">
+      <div class="main-info block" (click)="redirectToPage('/main-article')">
+        <div class="main-info__image">
+          <div class="main-info-image__item"></div>
+        </div>
+        <div class="main-info__text">
+          <span>
+            {{ "mainPage.mainInfo" | translate }}
+          </span>
+          <svg
+            class="svg-arrow"
+            width="50"
+            height="22"
+            viewBox="0 0 70 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M70 12L50 0.452994V23.547L70 12ZM0 14L52 14V10L0 10L0 14Z"
+              fill="white"
+            />
+          </svg>
+        </div>
+      </div>
+      <div class="short-infos">
+        <div
+          class="short-infos__first block m-b-20 cursor-pointer"
+          (click)="redirectToPage('/short-info-first-article')"
+        >
+          <div class="first-image"></div>
+          <div class="first-text">
+            <span class="first-text__item">{{
+              "mainPage.shortInfoFirst" | translate
+            }}</span>
+          </div>
+        </div>
+        <div
+          class="short-infos__item m-b-20 cursor-pointer"
+          (click)="redirectToPage('/education-article')"
+        >
+          <div class="short-infos__image">
+            <div class="image__item photo-1"></div>
+          </div>
+
+          <div class="short-infos__text">
+            <span>
+              {{ "mainPage.shortInfoOne" | translate }}
+            </span>
+          </div>
+        </div>
+        <div
+          class="short-infos__item m-b-20 cursor-pointer"
+          (click)="redirectToPage('/gingerbreads-article')"
+        >
+          <div class="short-infos__image">
+            <div class="image__item photo-2"></div>
+          </div>
+          <div class="short-infos__text">
+            <span> {{ "mainPage.shortInfoTwo" | translate }} </span>
+          </div>
+        </div>
+        <div
+          class="short-infos__item cursor-pointer"
+          (click)="redirectToPage('/vyacheslav-pairs')"
+        >
+          <div class="short-infos__image">
+            <div class="image__item photo-3"></div>
+          </div>
+          <div class="short-infos__text">
+            <span>{{ "mainPage.shortInfoThree" | translate }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="page__video-block video-block">
+  <div class="video-block__container">
+    <div class="video-block__body">
+      <iframe src="https://www.youtube.com/embed/bPnkP8cxHek"> </iframe>
+      <!-- <video
+        controls
+        class="video-insert"
+        poster="../../../../assets/images/video-block/poster.png"
+        id="videoPlayer"
+      >
+        <source
+          *ngIf="!isGay"
+          src="../../../../assets/videos/promo2.mp4"
+          type="video/mp4"
+        />
+        <source
+          *ngIf="isGay"
+          src="../../../../assets/videos/video.mp4"
+          type="video/mp4"
+        />
+      </video> -->
+    </div>
+  </div>
+</div>
+<div class="page__footer-block footer-block">
+  <div class="footer-block__container">
+    <div class="footer-block__body">
+      <div
+        class="footer-block__block-one block cursor-pointer"
+        (click)="redirectToPage('/social-advert')"
+      >
+        <div class="block-one__image">
+          <img src="../../../assets/images/news-block/news/photo-1.jpg" />
+        </div>
+        <div class="block-one__text">
+          <div class="info-text">
+            <div class="quote-start">
+              <svg
+                width="21"
+                height="11"
+                viewBox="0 0 21 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M17.465 10.72H11.69C11.48 10.72 11.2933 10.65 11.13 10.51C10.99 10.3467 10.92 10.195 10.92 10.055C10.92 9.89167 10.9317 9.775 10.955 9.705L14.28 1.27C14.56 0.523332 15.0967 0.149999 15.89 0.149999H19.67C19.88 0.149999 20.055 0.231666 20.195 0.395C20.3583 0.534999 20.44 0.709999 20.44 0.919999V0.989998L19.145 9.355C19.0983 9.705 18.9117 10.02 18.585 10.3C18.2817 10.58 17.9083 10.72 17.465 10.72ZM7.245 10.72H1.47C1.26 10.72 1.07333 10.65 0.91 10.51C0.77 10.3467 0.7 10.195 0.7 10.055C0.7 9.89167 0.711667 9.775 0.735 9.705L4.06 1.27C4.34 0.523332 4.87667 0.149999 5.67 0.149999H9.45C9.66 0.149999 9.835 0.231666 9.975 0.395C10.1383 0.534999 10.22 0.709999 10.22 0.919999V0.989998L8.925 9.355C8.87833 9.705 8.69167 10.02 8.365 10.3C8.06167 10.58 7.68833 10.72 7.245 10.72Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+
+            <div class="info-text__text">
+              <span>{{ "mainPage.quoteBlock" | translate }} </span>
+            </div>
+
+            <div class="quote-end">
+              <svg
+                width="21"
+                height="11"
+                viewBox="0 0 21 11"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M3.33145 0.149999H9.10645C9.31645 0.149999 9.49145 0.231666 9.63145 0.395C9.79478 0.534999 9.87645 0.686665 9.87645 0.849998C9.87645 0.989999 9.86478 1.095 9.84145 1.165L6.51645 9.6C6.23645 10.3467 5.69978 10.72 4.90645 10.72H1.12645C0.916445 10.72 0.729779 10.65 0.566445 10.51C0.426445 10.3467 0.356445 10.16 0.356445 9.95V9.88L1.65145 1.515C1.69811 1.165 1.87311 0.849999 2.17645 0.57C2.50311 0.289999 2.88811 0.149999 3.33145 0.149999ZM13.5514 0.149999H19.3264C19.5364 0.149999 19.7114 0.231666 19.8514 0.395C20.0148 0.534999 20.0964 0.686665 20.0964 0.849998C20.0964 0.989999 20.0848 1.095 20.0614 1.165L16.7364 9.6C16.4564 10.3467 15.9198 10.72 15.1264 10.72H11.3464C11.1364 10.72 10.9498 10.65 10.7864 10.51C10.6464 10.3467 10.5764 10.16 10.5764 9.95V9.88L11.8714 1.515C11.9181 1.165 12.0931 0.849999 12.3964 0.57C12.7231 0.289999 13.1081 0.149999 13.5514 0.149999Z"
+                  fill="black"
+                />
+              </svg>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer-block__block-two block cursor-pointer"
+        (click)="redirectToPage('/block-two-article')"
+      >
+        <div class="block-two__image">
+          <div class="image__item"></div>
+        </div>
+
+        <div class="block-two__text">
+          <div class="block-two__main-text">
+            <span>{{ "mainPage.blockTwo.title" | translate }}</span>
+          </div>
+          <div class="block-two__info-text">
+            <span>{{ "mainPage.blockTwo.text" | translate }}</span>
+          </div>
+        </div>
+      </div>
+      <div
+        class="footer-block__photo-block block cursor-pointer"
+        (click)="redirectToPage('/day-photos')"
+      >
+        <div class="photo-block__image">
+          <div class="image__item"></div>
+        </div>
+        <div class="photo-block__text">
+          <div class="text__items">
+            <span>{{ "mainPage.dayPhoto" | translate }}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

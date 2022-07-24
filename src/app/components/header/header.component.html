@@ -1,0 +1,56 @@
+<header class="header">
+  <div class="header__container">
+    <nav class="header__menu menu">
+      <ul class="menu__list">
+        <li class="menu__item link-people">
+          <a class="menu__link" [routerLink]="['/people-page'] | localize">{{
+            "header.people" | translate
+          }}</a>
+        </li>
+        <li class="menu__item link-news">
+          <a [routerLink]="['/news-page'] | localize" class="menu__link">{{
+            "header.news" | translate
+          }}</a>
+        </li>
+        <li class="menu__item link-freeTime">
+          <a [routerLink]="['/free-time-page'] | localize" class="menu__link">{{
+            "header.freeTime" | translate
+          }}</a>
+        </li>
+        <li class="menu__item" (click)="redirectToMainPage()">
+          <div class="header__logo">
+            <img [src]="logoService.logo" />
+          </div>
+        </li>
+        <li class="menu__item link-archive">
+          <a [routerLink]="['/archive'] | localize" class="menu__link">{{
+            "header.archive" | translate
+          }}</a>
+        </li>
+
+        <li class="menu__item link-aboutUs">
+          <a [routerLink]="['/about-us'] | localize" class="menu__link">{{
+            "header.aboutUs" | translate
+          }}</a>
+        </li>
+        <li class="menu__item language-button-item">
+          <div
+            class="menu__link language-button"
+            (click)="changeSiteLanguage()"
+          >
+            <div
+              [ngClass]="isRussian ? 'main-language' : 'additional-language'"
+            >
+              <span>РУС</span>
+            </div>
+            <div
+              [ngClass]="isRussian ? 'additional-language' : 'main-language'"
+            >
+              <span>БЕЛ</span>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>

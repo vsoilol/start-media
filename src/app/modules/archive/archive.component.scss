@@ -1,0 +1,192 @@
+.main-image__item {
+  background-image: url("../../../assets/images/news-block/main-image.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-image-block__item {
+  position: relative;
+  //width: 1330px;
+  height: 121px;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+}
+
+.main-image__item {
+  width: 100%;
+  height: 100%;
+}
+
+.main-image__text {
+  position: absolute;
+  font-size: 45px;
+  line-height: 56px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.images-block {
+  display: flex;
+  flex-direction: column;
+  margin: 40px 0 0 0;
+}
+
+.images-block__row {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  margin: 0 0 40px 0;
+}
+
+.images-block__row:last-child {
+  margin: 0;
+  flex-direction: row-reverse;
+}
+
+.images-block__item {
+  width: 385px;
+  height: 373px;
+  // background-color: grey;
+
+  &:last-child {
+    width: 518px;
+  }
+}
+
+.images-block-item__container {
+  width: 100%;
+  height: 100%;
+}
+
+.images-block-item-image {
+  height: 240px;
+  border-bottom: 3px solid #000;
+}
+
+.photo-1 {
+  background-image: url("../../../assets/images/articles/gingerbreads-article/photo-3.jpg");
+}
+
+.photo-2 {
+  background-image: url("../../../assets/images/main-block/short-infos/first.jpg");
+}
+
+.photo-3 {
+  background-image: url("../../../assets/images/articles/education-article/photo-1.png");
+}
+
+.photo-4 {
+  background-image: url("../../../assets/images/main-article-page/1658131399116\ \(1\).jpg");
+}
+
+.photo-5 {
+  background-image: url("../../../assets/images/articles/princess-children/photo-4.jpg");
+}
+
+.photo-6 {
+  background-image: url("../../../assets/images/articles/car-industry/photo-1.jpg");
+}
+
+.photo-7 {
+  background-image: url("../../../assets/images/articles/tactile-signs/photo-1.jpg");
+}
+
+.images-block-item-image__item {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.images-block-item-image__text {
+  font-size: 15px;
+  line-height: 22px;
+  margin: 13px 20px 0 20px;
+}
+
+.images-block-vertical-item__container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.images-block-vertica-item-image__text {
+  width: 100%;
+  margin: 0 10px 0 20px;
+
+  .title {
+    font-size: 20px;
+    line-height: 29px;
+    margin: 10px 0 35px 0;
+  }
+
+  .info {
+    font-family: "Commissioner";
+    font-size: 15px;
+    line-height: 18px;
+    // word-break: break-word;
+    // overflow: hidden;
+    //text-overflow: ellipsis;
+    //display: -webkit-box;
+    line-height: 18px;
+    /* max-height: 7000px; */
+    //-webkit-line-clamp: 9;
+    //-webkit-box-orient: vertical;
+  }
+}
+
+.images-block-vertical-item-image {
+  width: 100%;
+  height: 100%;
+  border-left: 3px solid #000;
+}
+
+.full-image-block {
+  margin: 40px 0 0 0;
+  height: 240px;
+}
+
+.full-image-block__item {
+  height: 100%;
+}
+
+.full-image-block-item__container {
+  display: flex;
+  height: 100%;
+}
+
+.full-image-block-item-image__item {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+
+.full-image-block-item-image {
+  width: 100%;
+  border-left: 3px solid #000;
+}
+
+.full-image-block-item-image__text {
+  font-size: 25px;
+  line-height: 36px;
+  width: 650px;
+  margin: auto 20px;
+}

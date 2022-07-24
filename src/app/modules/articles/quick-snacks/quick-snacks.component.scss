@@ -1,0 +1,105 @@
+.main-image__item {
+  //background-image: url("../../../../assets/images/main-article-page/main-info.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.main-image-block__item {
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.main-image {
+  width: 100%;
+  height: 100%;
+}
+
+.main-image__item {
+  width: 100%;
+  height: 100%;
+}
+
+.main-image__text {
+  color: #000;
+  font-size: 45px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.text-block__text {
+  font-family: "Commissioner";
+
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.main-block__text-block {
+  margin: 20px 0;
+  text-align: justify;
+}
+
+.additional-info {
+  margin: 40px 0 0 0;
+
+  .main-block__text-block {
+    margin: 0;
+  }
+}
+
+.main-block__images-block {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image {
+  width: 429px;
+  height: 230px;
+}
+
+.image__item {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+.photo-1 {
+  background-image: url("../../../../assets/images/articles/quick-snacks/photo-1.jpg");
+}
+
+.photo-2 {
+  background-image: url("../../../../assets/images/articles/quick-snacks/photo-2.jpg");
+}
+
+.photo-3 {
+  background-image: url("../../../../assets/images/articles/quick-snacks/photo-3.jpg");
+}
+
+.photo-4 {
+  background-image: url("../../../../assets/images/articles/quick-snacks/photo-4.jpg");
+}
+
+.photo-5 {
+  background-image: url("../../../../assets/images/articles/quick-snacks/photo-5.jpg");
+}
+
+// .photo-6 {
+//   background-image: url("../../../../assets/images/articles/quick-snacks/photo-6.jpg");
+// }
+
+.two-images {
+  .image {
+    width: 662px;
+    height: 369px;
+  }
+}

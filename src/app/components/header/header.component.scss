@@ -1,0 +1,83 @@
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header__logo {
+  height: 60px;
+  width: 285px;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.header__container {
+  align-items: center;
+  padding: 0 70px;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu__item {
+  cursor: pointer;
+}
+
+.menu__item:last-child {
+  margin: 0;
+}
+
+.menu__link {
+  color: white;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24.76px;
+  cursor: pointer;
+}
+
+.language-button:active {
+  //transition: 2s;
+}
+
+.main-language {
+  line-height: 19px;
+  transition: all 0.5s ease;
+  //transition: all 1.5s ease;
+}
+
+.additional-language {
+  transition: all 0.5s ease;
+  font-size: 10px;
+  line-height: 12px;
+}
+
+.link-people {
+  width: 60px;
+}
+
+.link-news {
+  width: 78px;
+  text-align: left;
+}
+
+.link-freeTime {
+  width: 112px;
+}
+
+.link-archive {
+  width: 58px;
+}
+
+.link-aboutUs {
+  width: 74px;
+}

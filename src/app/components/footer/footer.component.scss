@@ -1,0 +1,102 @@
+.footer {
+  background-color: #000;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  padding: 0 100px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+a {
+  color: white;
+}
+
+.footer__logo {
+  width: 200px;
+  margin: 15px 0 0 0;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+.footer__links {
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 0 5px;
+}
+
+.additional-links {
+  display: flex;
+  flex-direction: row;
+  font-family: "Commissioner";
+  font-size: 15px;
+  margin: 10px 0 0 0;
+}
+
+.additional-links__item {
+  margin: 0 20px 0 0;
+}
+
+.additional-links__item:last-child {
+  margin: 0;
+}
+
+.main-link {
+  font-size: 17px;
+}
+
+.links-block {
+  margin: 22px 0 0 0;
+
+  &:first-child {
+    margin: 0;
+  }
+}
+
+.links-additional-block {
+  margin: 22px 0 0 0;
+  display: flex;
+  flex-direction: row;
+}
+
+.telegram-text__item {
+  font-size: 20px;
+  line-height: 25px;
+  color: #fff;
+}
+
+.footer-additional__info {
+  display: flex;
+  align-items: center;
+}
+
+.footer__telegram {
+  display: flex;
+  align-items: center;
+  margin: 0 20px 0 0;
+}
+
+.telegram-link {
+  display: flex;
+  align-items: center;
+}
+
+.telegram-button {
+  margin: 0 10px 0 0;
+}
+
+.telegram-button__item {
+}
+
+.telegram-icon i {
+  color: rgb(2, 136, 160);
+}
+
+.footer-info__links {
+  margin: 0 0 20px 0;
+}
